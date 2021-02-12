@@ -2,11 +2,14 @@
 
 // console.log(global);
 
-global.setTimeout(() => {
-	console.log("time is up...");
-	clearInterval(int);
-}, 5000);
+// global.setTimeout(() => {
+// 	console.log("time is up...");
+// 	clearInterval(int);
+// }, 5000);
 
-const int = setInterval(() => {
-	console.log("in the interval");
-}, 1000);
+// const int = setInterval(() => {
+// 	console.log("in the interval");
+// }, 1000);
+
+console.log(__dirname);
+console.log(__filename);
